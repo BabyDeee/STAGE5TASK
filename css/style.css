@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.text-primary{color: navy !important;}
+/* Hero section */
+.header{background-color: #fdeff483;}
+a:hover{color:  navajowhite !important;}
+#hero-section , .navbar{background-color: white !important;}
+/* FIRST SECTION */
+.first-section .box{ background-color: navy;}
+.box h3{font-size: 50px; padding: 30px;}
+.box img{margin-left: 100px;}
+.box .btn-light{margin: 0 0 50px 120px;}
+.box .btn-light:hover{ background-color: #f4bfbf;}
+/* Second section */
+.shop .btn{background-color: navy !important; padding: 5px 40px; border-radius: 0;}
+.shop .btn:hover{background-color: antiquewhite !important; color: black !important;}
+/* THIRD SECTION */
+.third-section{background-image: url('../img/side.jpg'); background-size: cover; min-width: 100%; min-height: 100vh;}
+.third-section .textt{width: 70%;}
+.third-section h2{font-size: 50px; padding: 50px 150px;}
+.third-section p{padding: 40px 150px; font-size: 20px;}
+.third-section .btn{background-color: navy !important; padding: 10px 40px; border-radius: 0; margin-left: 150px;}
+/* FOURTH SECTION */
+.inspiration img{max-height: 50vh;width: 100%;}
+/* FIFTH SECTION */
+.fifth-section{background-color: navy; padding: 0 80px;}
+.fifth-section .btn{padding: 8px 40px; border-radius: 0;}
+.em input[type="email"]{width: 150%; border-radius: 0; border: none;}
+.send .btn:hover{background-color: antiquewhite; color: black !important;}
+/* SIXTH SECTION */
+.sixth-section{background-color: antiquewhite;}
