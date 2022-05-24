@@ -20,15 +20,12 @@ a:hover{color:  navajowhite !important;}
 .inspiration img{max-height: 60vh;width: 100%;}
 /* FIFTH SECTION */
 .fifth-section{background-color: navy; padding: 0 80px;}
-.fifth-section .btn{padding: 8px 40px; border-radius: 0;}
-.em input[type="email"]{width: 150%; border-radius: 0; border: none;}
 .send .btn:hover{background-color: antiquewhite; color: black !important;}
 /* SIXTH SECTION */
 .sixth-section{background-color: antiquewhite;}
 @media (max-width:576px){
 .fifth-section{padding: 0; width: 100%;}
+.left .names, .left .em{margin: 0 60px;}
 .fifth-section .left{width: 100% !important; margin: 0 !important; padding: 30px !important; text-align: center !important;}
 .fifth-section .Right .right, .rightLeft, .rightLeft .navbar-nav{ margin: 0 !important; padding: 0 !important; align-items: center !important;}
-.em input[type="email"], .names{width: 100% !important;}
-.names .firstName input[type="text"], .names .lastName input[type="text"]{margin: 0 !important; width: 80% !important; align-items: center !important;}
 }

@@ -20,41 +20,41 @@
     <title>DeeExplore</title>
 </head>
 <body>
-        <div id="hero-section" class="fixed-top mb-5">
-            <div class="header text-center py-2">
-                <h5 class="fs-6 text-primary">Join the list and receive 10% off your first order</h5>
-            </div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container">
-                    <a class="navbar-brand text-primary" href="#">DeeExplore</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse text-primary" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active ms-5 text-primary" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="shop.html">Collection</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="size.html">Size guide</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="about.html">About Brand</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="contact.html">Contact Us</a>
-                        </li>
-                        </ul>
-                        <button type="submit" class="btn btn-primary me-5">Log in</button>
-                        <i class="bi bi-cart fs-1"></i>
-                    </div>
-                    </div>
-                </nav>
+    <div id="hero-section">
+        <div class="header text-center py-2">
+            <h5 class="fs-6 text-primary">Join the list and receive 10% off your first order</h5>
         </div>
-        <div class="top-text mt-5 pt-5 text-primary text-center">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                <a class="navbar-brand text-primary" href="#">DeeExplore</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-primary" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active ms-5 text-primary" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="shop.html">Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="size.html">Size guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="about.html">About Brand</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="contact.html">Contact Us</a>
+                    </li>
+                    </ul>
+                    <button type="submit" class="btn btn-primary me-5">Log in</button>
+                    <i class="bi bi-cart fs-1"></i>
+                </div>
+                </div>
+            </nav>
+    </div>
+        <div class="top-text text-primary text-center">
             <h1 class="pb-4 pt-5">Get in touch</h1>
             <h6 class="pb-4">At DeeExplore, we're commited to giving you the best experience possible, leaving you wanting for more.</h6>
             <p class="pt-3">We run our online store 24 hours, 7 days a week <br> Our Offline store opening hours: Mondays to Saturdays 8:00am - 4:00pm  </p>
@@ -64,51 +64,50 @@
             <p class="mt-5 pb-2">For all inquires, reach us below</p>
         </div>
         <div class="form">
-            <form action="" class="">
-                    <div class="firstname text-center text-primary">
-                            <input type="text" class="p-3 w-50" required placeholder="Your Name">
-                    </div>
-                    <div class="email  text-primary text-center pt-3">
-                            <input aria-colcount="w-100" type="email" name="email" id="email" class="p-3 w-50" required placeholder="Email">
-                    </div>
-                <div class="subject text-center text-primary pt-3">
-                    <input type="text" class="p-3 w-50 mb-3" name="" id="" placeholder="Subject">
-                </div>
-                <div class="texta text-center rounded-4">
-                    <textarea name="" id="" cols="30" rows="8" class="rounded w-50" placeholder="Type your message here..."></textarea>
-                </div>
+            <form action="" class="container">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="e.g Jane/John Doe">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message here..."></textarea>
+                  </div>
                 <div class="message text-center my-5">
                     <a href="mailto:francesamaka2002@gmail.com" role="button" class="btn btn-primary btn-lg rounded-pill">Send Message</a>
                 </div>
             </form>
         </div>
-        <div class="fifth-section d-flex flex-row text-light">
-            <div class="left w-50 ms-5 py-5">
+        <div class="fifth-section d-flex flex-sm-column flex-md-row flex-lg-row flex-column text-light">
+            <div class="left w-50 ms-5 ps-5 py-5">
                 <h3 class="pb-3">JOIN THE LIST AND GET 10% <br> OFF YOUR FIRST ORDER</h3>
                 <p>Be the first to know about new arrivals, special <br> events, and more.</p>
-                <form action="">
-                    <div class="names d-flex flex-row mb-3 w-50">
-                        <div class="firstName me-2">
-                            <label for="firstName">First Name</label><br>
-                            <input type="text" class="p-2 w-100">
-                        </div>
-                        <div class="lastName">
-                            <label for="lastName">Last Name</label><br>
-                            <input type="text" class="p-2 w-100">
-                        </div>
+                <form action="" class="">
+                    <div class="names d-flex flex-sm-column flex-lg-row flex-column w-50">
+                        <div class="mb-3 me-2">
+                            <label for="exampleFormControlInput1" class="form-label">First Name</label><br>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="e.g Jane/John">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="e.g Doe">
+                          </div>
                     </div>
-                    <div class="em mb-4">
-                        <label for="email">Email<br>
-                            <input aria-colcount="w-100" type="email" name="email" id="email" class="p-2">
-                        </label>
-                    </div>
+                        <div class="mb-5 w-50 text-center em">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
                     <div class="send pt-1">
                         <a href="mailto:francesamaka2002@gmail.com" role="button" class="btn btn-light btn-lg w-50">Send</a>
                     </div>
                 </form>
             </div>
             <div class="Right">
-                <div class="right d-flex flex-row mt-5 pt-5">
+                <div class="right d-sm-flex flex-sm-row flex-column mt-5 pt-5">
                     <div class="rightLeft ms-5 ps-5">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ms-5">
                             <li class="nav-item">
@@ -128,7 +127,7 @@
                             </li>
                             </ul>
                     </div>
-                    <div class="rightRight ps-5 ms-3">
+                    <div class="rightRight ps-5 ms-3 d-sm-none d-md-none d-lg-block d-none">
                         <ul class="text-light list-unstyled ps-5 pt-3">
                             <li class="pb-3">FAQ</li>
                             <li class="pb-3">Shipping & Returns</li>
@@ -137,7 +136,7 @@
                         </ul>
                     </div>
                 </div>
-            <div class="socialLink ms-5 ps-5 pt-5 d-flex flex-row">
+            <div class="socialLink ms-5 ps-5 pt-5 d-sm-flex flex-sm-row flex-column text-center d-none">
                 <a class="ps-5 text-decoration-none text-light" href="https://twitter.com/Chiii_baby">Twitter</a>
                 <a class="ps-3 text-decoration-none text-light" href="https://www.linkedin.com/in/chiamakamaduka123">LinkedIn</a>
                 <a class="ps-3 text-decoration-none text-light" href="https://instagram.com/__spaghettii">Instagram</a>
