@@ -20,7 +20,7 @@
     <title>DeeExplore</title>
 </head>
 <body>
-    <div id="hero-section" class="fixed-top">
+    <div id="hero-section">
         <div class="header text-center py-2">
             <h5 class="fs-6 text-primary">Join the list and receive 10% off your first order</h5>
         </div>
@@ -54,17 +54,19 @@
                 </div>
             </nav>
     </div>
-    <div class="first-section d-flex flex-row justify-content-between mb-5 mt-5 pt-5">
+    <div class="first-section d-flex flex-row justify-content-evenly mb-5 mt-3">
+        <div class="container d-flex flex-row justify-content-evenly mb-5">
+            <div class="row">
                <div class="col-lg-4 col-md-12 col-12">
                    <div class="image h-100 h-sm-50">
                         <img src="img/girl1.jpg" class="img-fluid" alt="A smiling woman">
                     </div>
                </div>
                <div class="col-lg-4 col-md-12 col-12">
-                   <div class="box text-light h-100 me-3 p-3 ms-3">
-                       <div class="text-section animate__animated animate__slideInDown animate__delay-1s">
-                        <h3 class="text-center mb-5 ">FASHION FOR WOMEN OF ALL SIZES</h3>
-                        <p class="text-center fs-4 mb-5">Here at DeeExplore, we make clothes for women of all sizes. Dresses are made to fit you, not you to fit the dress!</p>
+                   <div class="box text-light p-3 h-100">
+                    <div class="text-section animate__animated animate__slideInDown animate__delay-1s">
+                        <h3 class="text-center my-5">FASHION FOR WOMEN OF ALL SIZES</h3>
+                        <p class="text-center fs-5 mb-5">Here at DeeExplore, we make clothes for women of all sizes. Dresses are made to fit you, not you to fit the dress!</p>
                         <a href="shop.html" role="button" class="btn btn-light">Shop Collection</a><br>
                         <img src="img/Social.png" alt="">
                     </div>
@@ -75,14 +77,16 @@
                         <img class="img-fluid w-100" src="img/girl2.jpg" alt="">
                     </div>
                </div> 
+            </div>
+        </div>
     </div>
     <div class="second-section">
         <div class="text text-center text-primary my-5 animate__animated animate__lightSpeedInLeft animate__delay-2s">
-            <h3 class="pt-5 fs-1">Get the Basics</h3>
+            <h3 class=" fs-1">Get the Basics</h3>
             <p class="pb-3 fs-5">You get to choose from a wide range of products made for every size.</p>
         </div>
         <div class="collection mb-5">
-            <div class="d-flex flex-row mx-5">
+            <div class="d-flex flex-sm-row flex-column mx-5">
                 <div class="img1 text-primary me-3 w-100 h-100">
                     <img class="img-fluid mb-3" src="img/girl3.jpg" alt="">
                     <h3>Jean Jacket</h3>
@@ -110,33 +114,34 @@
         </div>
     </div>
     <div class="third-section mb-3">
-        <div class="textt">
-            <h2 class="text-primary animate__animated animate__fadeInTopLeft animate__delay-3s">Simplicity Is the Ultimate Sophistication</h2>
-            <p class="text-primary animate__animated animate__fadeInLeftBig animate__delay-4s">It never goes out of style. Go through our latest collection and pick what suits you. DeeExplore provides  you the opportunity to be simple, yet classy, as the spectacular person you are. Allow us show you just how sophisticated you can look.</p>
+        <div class="textt container pb-5">
+            <h2 class="text-primary animate__animated animate__fadeInTopLeft animate__delay-3s py-5 fs-1">Simplicity Is the Ultimate Sophistication</h2>
+            <p class="text-primary animate__animated animate__fadeInLeftBig animate__delay-4s pb-5 fs-5">Simplicity never goes out of style. <br> Go through our latest collection and pick what best suits you. <br>
+                DeeExplore provides you the opportunity to be simple <br> yet classy as the spectacular person you are. <br> Allow us show you just how sophisticated you can look.</p>
             <a href="about.html" role="button" class="btn btn-dark btn-lg mt-3 animate__animated animate__fadeInLeftBig animate__delay-5s">Discover our brand</a>
         </div>
     </div>
     <div class="fourth-section pt-5 pb-4">
         <h3 class="text-primary text-center fs-1 animate__animated animate__lightSpeedInLeft animate__delay-5s">Get Inspired</h3>
         <p class="text-center text-primary animate__animated animate__lightSpeedInLeft animate__delay-5s">#DeeExplore</p>
-        <div class="inspiration d-flex flex-row">
+        <div class="inspiration d-flex flex-column flex-sm-row">
             <img class="img-fluid pe-2" src="img/love.jpg" alt="">
             <img class="img-fluid pe-2" src="img/sunflower.jpg" alt="">
             <img class="img-fluid pe-2" src="img/smile.jpg" alt="">
             <img class="img-fluid" src="img/cloth.jpg" alt="">
         </div>
     </div>
-    <div class="fifth-section d-flex flex-row text-light">
+    <div class="fifth-section d-flex flex-sm-row flex-column text-light">
         <div class="left w-50 ms-5 py-5">
             <h3 class="pb-3">JOIN THE LIST AND GET 10% <br> OFF YOUR FIRST ORDER</h3>
             <p>Be the first to know about new arrivals, special <br> events, and more.</p>
             <form action="">
-                <div class="names d-flex flex-row mb-3 w-50">
-                    <div class="firstName me-2">
+                <div class="names d-flex flex-sm-row flex-column mb-3 w-50">
+                    <div class="firstName me-2 mb-2">
                         <label for="firstName">First Name</label><br>
                         <input type="text" class="p-2 w-100">
                     </div>
-                    <div class="lastName">
+                    <div class="lastName mb-2">
                         <label for="lastName">Last Name</label><br>
                         <input type="text" class="p-2 w-100">
                     </div>
@@ -152,7 +157,7 @@
             </form>
         </div>
         <div class="Right">
-            <div class="right d-flex flex-row mt-5 pt-5">
+            <div class="right d-sm-flex flex-sm-row flex-column mt-5 pt-5">
                 <div class="rightLeft ms-5 ps-5">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ms-5">
                         <li class="nav-item">
@@ -172,7 +177,7 @@
                         </li>
                         </ul>
                 </div>
-                <div class="rightRight ps-5 ms-3">
+                <div class="rightRight ps-5 ms-3 d-sm-block d-none">
                     <ul class="text-light list-unstyled ps-5 pt-3">
                         <li class="pb-3">FAQ</li>
                         <li class="pb-3">Shipping & Returns</li>
@@ -181,7 +186,7 @@
                     </ul>
                 </div>
             </div>
-        <div class="socialLink ms-5 ps-5 pt-5 d-flex flex-row">
+        <div class="socialLink ms-5 ps-5 pt-5 d-sm-flex flex-sm-row flex-column text-center d-none">
             <a class="ps-5 text-decoration-none text-light" href="https://twitter.com/Chiii_baby">Twitter</a>
             <a class="ps-3 text-decoration-none text-light" href="https://www.linkedin.com/in/chiamakamaduka123">LinkedIn</a>
             <a class="ps-3 text-decoration-none text-light" href="https://instagram.com/__spaghettii">Instagram</a>

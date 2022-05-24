@@ -6,21 +6,18 @@ a:hover{color:  navajowhite !important;}
 #hero-section , .navbar{background-color: white !important;}
 /* FIRST SECTION */
 .first-section .box{ background-color: navy;}
-.box h3{font-size: 50px; padding: 30px;}
-.box img{margin-left: 100px;}
-.box .btn-light{margin: 0 0 50px 120px;}
+.box h3{font-size: 46px;}
+.box .btn-light{margin: 0 0 0 80px !important;}
 .box .btn-light:hover{ background-color: #f4bfbf;}
 /* Second section */
 .shop .btn{background-color: navy !important; padding: 5px 40px; border-radius: 0;}
 .shop .btn:hover{background-color: antiquewhite !important; color: black !important;}
 /* THIRD SECTION */
-.third-section{background-image: url('../img/side.jpg'); background-size: cover; min-width: 100%; min-height: 100vh;}
-.third-section .textt{width: 70%;}
-.third-section h2{font-size: 50px; padding: 50px 150px;}
-.third-section p{padding: 40px 150px; font-size: 20px;}
-.third-section .btn{background-color: navy !important; padding: 10px 40px; border-radius: 0; margin-left: 150px;}
+.third-section{background-image: url('../img/bg.jpg'); background-size: cover; min-width: 100%; min-height: 100vh;}
+.third-section h2{ padding-top: 60px !important;}
+.third-section .btn{background-color: navy !important; padding: 10px 40px; border-radius: 0;}
 /* FOURTH SECTION */
-.inspiration img{max-height: 50vh;width: 100%;}
+.inspiration img{max-height: 60vh;width: 100%;}
 /* FIFTH SECTION */
 .fifth-section{background-color: navy; padding: 0 80px;}
 .fifth-section .btn{padding: 8px 40px; border-radius: 0;}
@@ -28,3 +25,10 @@ a:hover{color:  navajowhite !important;}
 .send .btn:hover{background-color: antiquewhite; color: black !important;}
 /* SIXTH SECTION */
 .sixth-section{background-color: antiquewhite;}
+@media (max-width:576px){
+.fifth-section{padding: 0; width: 100%;}
+.fifth-section .left{width: 100% !important; margin: 0 !important; padding: 30px !important; text-align: center !important;}
+.fifth-section .Right .right, .rightLeft, .rightLeft .navbar-nav{ margin: 0 !important; padding: 0 !important; align-items: center !important;}
+.em input[type="email"], .names{width: 100% !important;}
+.names .firstName input[type="text"], .names .lastName input[type="text"]{margin: 0 !important; width: 80% !important; align-items: center !important;}
+}
