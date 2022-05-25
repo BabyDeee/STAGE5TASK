@@ -25,7 +25,8 @@ a:hover{color:  navajowhite !important;}
 .sixth-section{background-color: antiquewhite;}
 @media (max-width:576px){
 .fifth-section{padding: 0; width: 100%;}
-.left .names, .left .em{margin: 0 60px;}
+.left .em{margin: 0 68px 40px !important;}
+.left .names{margin: 0 68px !important;}
 .fifth-section .left{width: 100% !important; margin: 0 !important; padding: 30px !important; text-align: center !important;}
 .fifth-section .Right .right, .rightLeft, .rightLeft .navbar-nav{ margin: 0 !important; padding: 0 !important; align-items: center !important;}
 }
